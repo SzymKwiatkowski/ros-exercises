@@ -1,0 +1,3 @@
+[submodule "navigation2_planners"]
+	path = navigation2_planners
+	url = https://github.com/SzymKwiatkowski/navigation2_planners
