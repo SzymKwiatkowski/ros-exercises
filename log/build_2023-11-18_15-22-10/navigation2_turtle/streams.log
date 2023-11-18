@@ -1,0 +1,35 @@
+[2.955s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/navigation2_turtle -- -j8 -l8
+[3.178s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/navigation2_turtle -- -j8 -l8
+[3.432s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/navigation2_turtle
+[3.504s] -- Install configuration: ""
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/launch
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/launch/navigation2_smac2d.launch.py
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/launch/navigation2_navfn.launch.py
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/launch/navigation2_theta_star.launch.py
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/map
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/map/turtlebot3_world.pgm
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/map/turtlebot3_world.yaml
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/map/house_map.yaml
+[3.504s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/map/house_map.pgm
+[3.505s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/param
+[3.507s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/param/waffle_smac2d.yaml
+[3.509s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/param/waffle_navfn.yaml
+[3.520s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/param/waffle_theta_star.yaml
+[3.523s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/rviz
+[3.548s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/rviz/tb3_navigation2.rviz
+[3.549s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/ament_index/resource_index/package_run_dependencies/navigation2_turtle
+[3.549s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/ament_index/resource_index/parent_prefix_path/navigation2_turtle
+[3.549s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/environment/ament_prefix_path.sh
+[3.549s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/environment/ament_prefix_path.dsv
+[3.554s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/environment/path.sh
+[3.580s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/environment/path.dsv
+[3.581s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/local_setup.bash
+[3.581s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/local_setup.sh
+[3.581s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/local_setup.zsh
+[3.581s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/local_setup.dsv
+[3.581s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.dsv
+[3.582s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/ament_index/resource_index/packages/navigation2_turtle
+[3.582s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/cmake/navigation2_turtleConfig.cmake
+[3.582s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/cmake/navigation2_turtleConfig-version.cmake
+[3.582s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.xml
+[3.722s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/navigation2_turtle

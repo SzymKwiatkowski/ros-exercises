@@ -1,0 +1,148 @@
+[0.885s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/ex_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/ex_solution -- -j8 -l8
+[1.573s] [  3%] Built target ex_solution__cpp
+[1.574s] [  3%] Built target ament_cmake_python_copy_ex_solution
+[1.574s] [ 12%] Built target ex_solution__rosidl_typesupport_introspection_cpp
+[1.574s] running egg_info
+[1.575s] writing ex_solution.egg-info/PKG-INFO
+[1.575s] writing dependency_links to ex_solution.egg-info/dependency_links.txt
+[1.575s] writing top-level names to ex_solution.egg-info/top_level.txt
+[1.576s] reading manifest file 'ex_solution.egg-info/SOURCES.txt'
+[1.576s] writing manifest file 'ex_solution.egg-info/SOURCES.txt'
+[1.658s] [ 12%] Built target ament_cmake_python_build_ex_solution_egg
+[1.700s] [ 22%] Built target ex_solution__rosidl_typesupport_fastrtps_cpp
+[1.768s] [ 32%] Built target ex_solution__rosidl_typesupport_cpp
+[1.796s] [ 41%] Built target ex_solution__rosidl_generator_c
+[1.840s] [ 51%] Built target ex_solution__rosidl_typesupport_fastrtps_c
+[1.904s] [ 61%] Built target ex_solution__rosidl_typesupport_c
+[1.975s] [ 70%] Built target ex_solution__rosidl_typesupport_introspection_c
+[2.009s] [ 70%] Built target ex_solution
+[2.054s] [ 74%] Built target ex_solution__py
+[2.103s] [ 80%] Built target ex_solution__rosidl_generator_py
+[2.143s] [ 87%] Built target ex_solution__rosidl_typesupport_fastrtps_c__pyext
+[2.200s] [ 93%] Built target ex_solution__rosidl_typesupport_c__pyext
+[2.264s] [100%] Built target ex_solution__rosidl_typesupport_introspection_c__pyext
+[2.628s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/ex_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/ex_solution -- -j8 -l8
+[3.218s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/ex_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/ex_solution
+[3.268s] -- Install configuration: ""
+[3.268s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ament_index/resource_index/rosidl_interfaces/ex_solution
+[3.268s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg/rosidl_generator_c__visibility_control.h
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__struct.h
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__type_support.h
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__functions.c
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__functions.h
+[3.269s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/exercise_action.h
+[3.270s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/environment/library_path.sh
+[3.270s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/environment/library_path.dsv
+[3.270s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_generator_c.so
+[3.270s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.270s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg
+[3.270s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.270s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__rosidl_typesupport_fastrtps_c.h
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_fastrtps_c.so
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/exercise_action.hpp
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__traits.hpp
+[3.271s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__builder.hpp
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__struct.hpp
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/dds_fastrtps
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__rosidl_typesupport_fastrtps_cpp.hpp
+[3.272s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_fastrtps_cpp.so
+[3.273s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.273s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg
+[3.273s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.273s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.273s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.273s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__rosidl_typesupport_introspection_c.h
+[3.273s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__type_support.c
+[3.275s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_introspection_c.so
+[3.276s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_c.so
+[3.276s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.276s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.276s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.276s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__type_support.cpp
+[3.277s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__rosidl_typesupport_introspection_cpp.hpp
+[3.277s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_introspection_cpp.so
+[3.277s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_cpp.so
+[3.277s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/environment/pythonpath.sh
+[3.277s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/environment/pythonpath.dsv
+[3.278s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info
+[3.279s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info/top_level.txt
+[3.279s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info/PKG-INFO
+[3.279s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.279s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.279s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution
+[3.279s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/libex_solution__rosidl_generator_py.so
+[3.279s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/_ex_solution_s.ep.rosidl_typesupport_c.c
+[3.279s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.279s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/_ex_solution_s.ep.rosidl_typesupport_introspection_c.c
+[3.279s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.279s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/_ex_solution_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.280s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action
+[3.280s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action/_exercise_action.py
+[3.280s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action/_exercise_action_s.c
+[3.280s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action/__init__.py
+[3.280s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/__init__.py
+[3.280s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.410s] Listing '/home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution'...
+[3.410s] Listing '/home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action'...
+[3.429s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.430s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.430s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.431s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_generator_py.so
+[3.431s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/action/ExerciseAction.idl
+[3.431s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/action/ExerciseAction.action
+[3.431s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/ex_solution/exercise_action_client.py
+[3.431s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/ex_solution/exercise_action_server.py
+[3.431s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ament_index/resource_index/package_run_dependencies/ex_solution
+[3.431s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ament_index/resource_index/parent_prefix_path/ex_solution
+[3.432s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/environment/ament_prefix_path.sh
+[3.432s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/environment/ament_prefix_path.dsv
+[3.432s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/environment/path.sh
+[3.433s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/environment/path.dsv
+[3.433s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/local_setup.bash
+[3.433s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/local_setup.sh
+[3.434s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/local_setup.zsh
+[3.434s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/local_setup.dsv
+[3.434s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.dsv
+[3.434s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ament_index/resource_index/packages/ex_solution
+[3.434s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_cExport.cmake
+[3.434s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_cExport-noconfig.cmake
+[3.434s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_typesupport_fastrtps_cExport.cmake
+[3.434s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.434s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_cppExport.cmake
+[3.435s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.435s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.435s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_introspection_cExport.cmake
+[3.446s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.446s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_cExport.cmake
+[3.446s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_cExport-noconfig.cmake
+[3.446s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_introspection_cppExport.cmake
+[3.446s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.447s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_cppExport.cmake
+[3.447s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_cppExport-noconfig.cmake
+[3.447s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_pyExport.cmake
+[3.447s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_pyExport-noconfig.cmake
+[3.449s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/rosidl_cmake-extras.cmake
+[3.449s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.449s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.450s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ament_cmake_export_libraries-extras.cmake
+[3.450s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ament_cmake_export_targets-extras.cmake
+[3.451s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.451s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.452s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solutionConfig.cmake
+[3.452s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solutionConfig-version.cmake
+[3.452s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.xml
+[3.569s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/ex_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/ex_solution

@@ -1,0 +1,26 @@
+[1.374s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/exercise -- -j8 -l8
+[3.048s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/exercise -- -j8 -l8
+[3.172s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/exercise
+[3.186s] -- Install configuration: ""
+[3.208s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise//launch
+[3.208s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise//launch/exercise_world.launch.py
+[3.208s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise//worlds
+[3.208s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise//worlds/exercise.sdf
+[3.208s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise//config
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise//config/exercise.config
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/ament_index/resource_index/package_run_dependencies/exercise
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/ament_index/resource_index/parent_prefix_path/exercise
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/environment/ament_prefix_path.sh
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/environment/ament_prefix_path.dsv
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/environment/path.sh
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/environment/path.dsv
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/local_setup.bash
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/local_setup.sh
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/local_setup.zsh
+[3.209s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/local_setup.dsv
+[3.209s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.dsv
+[3.210s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/ament_index/resource_index/packages/exercise
+[3.210s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/cmake/exerciseConfig.cmake
+[3.210s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/cmake/exerciseConfig-version.cmake
+[3.210s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.xml
+[3.210s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/exercise

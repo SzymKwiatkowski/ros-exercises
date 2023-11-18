@@ -1,0 +1,24 @@
+[1.448s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/pub_sub -- -j8 -l8
+[1.628s] [ 50%] Built target listener
+[1.628s] [100%] Built target talker
+[2.006s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/pub_sub -- -j8 -l8
+[3.120s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/pub_sub
+[3.160s] -- Install configuration: ""
+[3.174s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/lib/pub_sub/talker
+[3.174s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/lib/pub_sub/listener
+[3.174s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/ament_index/resource_index/package_run_dependencies/pub_sub
+[3.174s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/ament_index/resource_index/parent_prefix_path/pub_sub
+[3.174s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/environment/ament_prefix_path.sh
+[3.175s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/environment/ament_prefix_path.dsv
+[3.175s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/environment/path.sh
+[3.175s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/environment/path.dsv
+[3.175s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/local_setup.bash
+[3.175s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/local_setup.sh
+[3.175s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/local_setup.zsh
+[3.175s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/local_setup.dsv
+[3.180s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.dsv
+[3.180s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/ament_index/resource_index/packages/pub_sub
+[3.181s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake
+[3.181s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake
+[3.181s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.xml
+[3.803s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/pub_sub

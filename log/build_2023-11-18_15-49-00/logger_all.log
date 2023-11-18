@@ -1,0 +1,461 @@
+[1.645s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.645s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2dbd040400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2dbd381750>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2dbd381750>>)
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.717s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mrush/exercise/src/ros-exercises'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extensions ['ignore', 'ignore_ament_install']
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'ignore'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'ignore_ament_install'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extensions ['colcon_pkg']
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'colcon_pkg'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extensions ['colcon_meta']
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'colcon_meta'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extensions ['ros']
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'ros'
+[1.743s] DEBUG:colcon.colcon_core.package_identification:Package 'ex_solution' with type 'ros.ament_cmake' and name 'ex_solution'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extensions ['ignore', 'ignore_ament_install']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'ignore'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'ignore_ament_install'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extensions ['colcon_pkg']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'colcon_pkg'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extensions ['colcon_meta']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'colcon_meta'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extensions ['ros']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'ros'
+[1.745s] DEBUG:colcon.colcon_core.package_identification:Package 'exercise' with type 'ros.ament_cmake' and name 'exercise'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extensions ['ignore', 'ignore_ament_install']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'ignore'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'ignore_ament_install'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extensions ['colcon_pkg']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'colcon_pkg'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extensions ['colcon_meta']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'colcon_meta'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extensions ['ros']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'ros'
+[1.747s] DEBUG:colcon.colcon_core.package_identification:Package 'fibonacci_action' with type 'ros.ament_cmake' and name 'fibonacci_action'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['ignore', 'ignore_ament_install']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'ignore'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'ignore_ament_install'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['colcon_pkg']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'colcon_pkg'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['colcon_meta']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'colcon_meta'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['ros']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'ros'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['cmake', 'python']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'cmake'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'python'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['python_setup_py']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'python_setup_py'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extensions ['ignore', 'ignore_ament_install']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'ignore'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'ignore_ament_install'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extensions ['colcon_pkg']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'colcon_pkg'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extensions ['colcon_meta']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'colcon_meta'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extensions ['ros']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'ros'
+[1.751s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_planners/navigation2_dist' with type 'ros.ament_python' and name 'navigation2_dist'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extensions ['ignore', 'ignore_ament_install']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'ignore'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'ignore_ament_install'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extensions ['colcon_pkg']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'colcon_pkg'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extensions ['colcon_meta']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'colcon_meta'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extensions ['ros']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'ros'
+[1.753s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_planners/navigation2_turtlebot' with type 'ros.ament_cmake' and name 'navigation2_turtle'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'ignore'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'ignore_ament_install'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extensions ['colcon_pkg']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'colcon_pkg'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extensions ['colcon_meta']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'colcon_meta'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extensions ['ros']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'ros'
+[1.754s] DEBUG:colcon.colcon_core.package_identification:Package 'pub_sub' with type 'ros.ament_cmake' and name 'pub_sub'
+[1.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.936s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/mrush/exercise/src/ros-exercises/install
+[1.960s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[1.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.129s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_args' from command line to 'None'
+[2.129s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_target' from command line to 'None'
+[2.129s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.129s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_clean_cache' from command line to 'False'
+[2.129s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_clean_first' from command line to 'False'
+[2.129s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_force_configure' from command line to 'False'
+[2.129s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'ament_cmake_args' from command line to 'None'
+[2.129s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'catkin_cmake_args' from command line to 'None'
+[2.130s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.130s] DEBUG:colcon.colcon_core.verb:Building package 'ex_solution' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mrush/exercise/src/ros-exercises/build/ex_solution', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mrush/exercise/src/ros-exercises/install/ex_solution', 'merge_install': False, 'path': '/home/mrush/exercise/src/ros-exercises/ex_solution', 'symlink_install': False, 'test_result_base': None}
+[2.149s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_args' from command line to 'None'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_target' from command line to 'None'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_clean_cache' from command line to 'False'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_clean_first' from command line to 'False'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_force_configure' from command line to 'False'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'ament_cmake_args' from command line to 'None'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'catkin_cmake_args' from command line to 'None'
+[2.150s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.150s] DEBUG:colcon.colcon_core.verb:Building package 'exercise' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mrush/exercise/src/ros-exercises/build/exercise', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mrush/exercise/src/ros-exercises/install/exercise', 'merge_install': False, 'path': '/home/mrush/exercise/src/ros-exercises/exercise', 'symlink_install': False, 'test_result_base': None}
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_args' from command line to 'None'
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_target' from command line to 'None'
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_clean_cache' from command line to 'False'
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_clean_first' from command line to 'False'
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_force_configure' from command line to 'False'
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'ament_cmake_args' from command line to 'None'
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'catkin_cmake_args' from command line to 'None'
+[2.170s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.170s] DEBUG:colcon.colcon_core.verb:Building package 'fibonacci_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action', 'merge_install': False, 'path': '/home/mrush/exercise/src/ros-exercises/fibonacci_action', 'symlink_install': False, 'test_result_base': None}
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_args' from command line to 'None'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_target' from command line to 'None'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_clean_cache' from command line to 'False'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_clean_first' from command line to 'False'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_force_configure' from command line to 'False'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'ament_cmake_args' from command line to 'None'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'catkin_cmake_args' from command line to 'None'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.193s] DEBUG:colcon.colcon_core.verb:Building package 'navigation2_dist' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mrush/exercise/src/ros-exercises/build/navigation2_dist', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist', 'merge_install': False, 'path': '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_dist', 'symlink_install': False, 'test_result_base': None}
+[2.214s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_args' from command line to 'None'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_target' from command line to 'None'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[2.215s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.216s] DEBUG:colcon.colcon_core.verb:Building package 'navigation2_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle', 'merge_install': False, 'path': '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_turtlebot', 'symlink_install': False, 'test_result_base': None}
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_args' from command line to 'None'
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_target' from command line to 'None'
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_clean_first' from command line to 'False'
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_force_configure' from command line to 'False'
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'ament_cmake_args' from command line to 'None'
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.238s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.238s] DEBUG:colcon.colcon_core.verb:Building package 'pub_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mrush/exercise/src/ros-exercises/build/pub_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mrush/exercise/src/ros-exercises/install/pub_sub', 'merge_install': False, 'path': '/home/mrush/exercise/src/ros-exercises/pub_sub', 'symlink_install': False, 'test_result_base': None}
+[2.260s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mrush/exercise/src/ros-exercises/ex_solution' with build type 'ament_cmake'
+[2.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mrush/exercise/src/ros-exercises/ex_solution'
+[2.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.429s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mrush/exercise/src/ros-exercises/exercise' with build type 'ament_cmake'
+[2.430s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mrush/exercise/src/ros-exercises/exercise'
+[2.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mrush/exercise/src/ros-exercises/fibonacci_action' with build type 'ament_cmake'
+[2.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mrush/exercise/src/ros-exercises/fibonacci_action'
+[2.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.710s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_dist' with build type 'ament_python'
+[2.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation2_dist', 'ament_prefix_path')
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/ament_prefix_path.ps1'
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/ament_prefix_path.dsv'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/ament_prefix_path.sh'
+[2.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.868s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_turtlebot' with build type 'ament_cmake'
+[2.869s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_turtlebot'
+[2.898s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.992s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mrush/exercise/src/ros-exercises/pub_sub' with build type 'ament_cmake'
+[2.992s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mrush/exercise/src/ros-exercises/pub_sub'
+[3.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.019s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/ex_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/ex_solution -- -j8 -l8
+[3.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/exercise -- -j8 -l8
+[3.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/fibonacci_action -- -j8 -l8
+[3.720s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_dist'
+[3.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/navigation2_turtle -- -j8 -l8
+[3.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/pub_sub -- -j8 -l8
+[3.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/exercise -- -j8 -l8
+[3.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/navigation2_turtle -- -j8 -l8
+[3.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/fibonacci_action -- -j8 -l8
+[3.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/exercise
+[4.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exercise)
+[4.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/exercise
+[4.068s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise' for CMake module files
+[4.069s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise' for CMake config files
+[4.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('exercise', 'cmake_prefix_path')
+[4.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.ps1'
+[4.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.dsv'
+[4.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.sh'
+[4.098s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise/bin'
+[4.098s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise/lib/pkgconfig/exercise.pc'
+[4.099s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise/lib/python3.10/site-packages'
+[4.099s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise/bin'
+[4.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.ps1'
+[4.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.dsv'
+[4.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.sh'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.bash'
+[4.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.zsh'
+[4.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/exercise/share/colcon-core/packages/exercise)
+[4.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/ex_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/ex_solution -- -j8 -l8
+[4.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/navigation2_turtle
+[4.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/pub_sub -- -j8 -l8
+[4.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation2_turtle)
+[4.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/navigation2_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/navigation2_turtle
+[4.224s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle' for CMake module files
+[4.225s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle' for CMake config files
+[4.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation2_turtle', 'cmake_prefix_path')
+[4.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.ps1'
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.dsv'
+[4.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.sh'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/bin'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/lib/pkgconfig/navigation2_turtle.pc'
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/lib/python3.10/site-packages'
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/bin'
+[4.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.ps1'
+[4.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.dsv'
+[4.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.sh'
+[4.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.bash'
+[4.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.zsh'
+[4.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/colcon-core/packages/navigation2_turtle)
+[4.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exercise)
+[4.344s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise' for CMake module files
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise' for CMake config files
+[4.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('exercise', 'cmake_prefix_path')
+[4.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.ps1'
+[4.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.dsv'
+[4.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.sh'
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise/bin'
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise/lib/pkgconfig/exercise.pc'
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise/lib/python3.10/site-packages'
+[4.379s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/exercise/bin'
+[4.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.ps1'
+[4.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.dsv'
+[4.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.sh'
+[4.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.bash'
+[4.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/exercise/share/exercise/package.zsh'
+[4.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/exercise/share/colcon-core/packages/exercise)
+[4.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/fibonacci_action
+[4.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/pub_sub
+[4.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation2_turtle)
+[4.568s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle' for CMake module files
+[4.569s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle' for CMake config files
+[4.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation2_turtle', 'cmake_prefix_path')
+[4.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.ps1'
+[4.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.dsv'
+[4.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.sh'
+[4.608s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/bin'
+[4.608s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/lib/pkgconfig/navigation2_turtle.pc'
+[4.609s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/lib/python3.10/site-packages'
+[4.609s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/bin'
+[4.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.ps1'
+[4.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.dsv'
+[4.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.sh'
+[4.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.bash'
+[4.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.zsh'
+[4.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/navigation2_turtle/share/colcon-core/packages/navigation2_turtle)
+[4.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/build/ex_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/ex_solution
+[4.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub_sub)
+[4.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/pub_sub
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub' for CMake module files
+[4.712s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub' for CMake config files
+[4.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub_sub', 'cmake_prefix_path')
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.ps1'
+[4.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.dsv'
+[4.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.sh'
+[4.750s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/lib'
+[4.751s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/bin'
+[4.751s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/lib/pkgconfig/pub_sub.pc'
+[4.751s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/lib/python3.10/site-packages'
+[4.751s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/bin'
+[4.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.ps1'
+[4.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.dsv'
+[4.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.sh'
+[4.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.bash'
+[4.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.zsh'
+[4.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/colcon-core/packages/pub_sub)
+[4.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fibonacci_action)
+[4.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/fibonacci_action
+[4.834s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action' for CMake module files
+[4.835s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action' for CMake config files
+[4.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci_action', 'cmake_prefix_path')
+[4.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.ps1'
+[4.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.dsv'
+[4.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.sh'
+[4.895s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib'
+[4.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci_action', 'ld_library_path_lib')
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.ps1'
+[4.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.dsv'
+[4.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.sh'
+[4.922s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/bin'
+[4.922s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/pkgconfig/fibonacci_action.pc'
+[4.923s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/python3.10/site-packages'
+[4.923s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/bin'
+[4.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.ps1'
+[4.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.dsv'
+[4.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.sh'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.bash'
+[4.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.zsh'
+[4.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/colcon-core/packages/fibonacci_action)
+[4.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_dist': PYTHONPATH=/home/mrush/exercise/src/ros-exercises/build/navigation2_dist/prefix_override:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_dist build --build-base /home/mrush/exercise/src/ros-exercises/build/navigation2_dist/build install --record /home/mrush/exercise/src/ros-exercises/build/navigation2_dist/install.log --single-version-externally-managed
+[4.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub_sub)
+[5.020s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub' for CMake module files
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub' for CMake config files
+[5.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub_sub', 'cmake_prefix_path')
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.ps1'
+[5.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.dsv'
+[5.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.sh'
+[5.051s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/lib'
+[5.052s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/bin'
+[5.052s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/lib/pkgconfig/pub_sub.pc'
+[5.052s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/lib/python3.10/site-packages'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/pub_sub/bin'
+[5.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.ps1'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.dsv'
+[5.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.sh'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.bash'
+[5.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/pub_sub/package.zsh'
+[5.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/pub_sub/share/colcon-core/packages/pub_sub)
+[5.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex_solution)
+[5.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/build/ex_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/ex_solution
+[5.122s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution' for CMake module files
+[5.126s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution' for CMake config files
+[5.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_solution', 'cmake_prefix_path')
+[5.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.ps1'
+[5.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.dsv'
+[5.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.sh'
+[5.172s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/lib'
+[5.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_solution', 'ld_library_path_lib')
+[5.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.ps1'
+[5.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.dsv'
+[5.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.sh'
+[5.202s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/bin'
+[5.204s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/pkgconfig/ex_solution.pc'
+[5.206s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/python3.10/site-packages'
+[5.206s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/bin'
+[5.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.ps1'
+[5.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.dsv'
+[5.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.sh'
+[5.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.bash'
+[5.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.zsh'
+[5.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/colcon-core/packages/ex_solution)
+[5.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fibonacci_action)
+[5.337s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action' for CMake module files
+[5.338s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action' for CMake config files
+[5.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci_action', 'cmake_prefix_path')
+[5.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.ps1'
+[5.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.dsv'
+[5.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.sh'
+[5.393s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib'
+[5.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci_action', 'ld_library_path_lib')
+[5.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.ps1'
+[5.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.dsv'
+[5.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.sh'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/bin'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/pkgconfig/fibonacci_action.pc'
+[5.419s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/python3.10/site-packages'
+[5.419s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/bin'
+[5.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.ps1'
+[5.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.dsv'
+[5.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.sh'
+[5.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.bash'
+[5.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.zsh'
+[5.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/colcon-core/packages/fibonacci_action)
+[5.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex_solution)
+[5.616s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution' for CMake module files
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution' for CMake config files
+[5.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_solution', 'cmake_prefix_path')
+[5.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.ps1'
+[5.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.dsv'
+[5.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.sh'
+[5.647s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/lib'
+[5.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_solution', 'ld_library_path_lib')
+[5.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.ps1'
+[5.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.dsv'
+[5.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.sh'
+[5.679s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/bin'
+[5.680s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/pkgconfig/ex_solution.pc'
+[5.680s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/lib/python3.10/site-packages'
+[5.681s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/ex_solution/bin'
+[5.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.ps1'
+[5.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.dsv'
+[5.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.sh'
+[5.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.bash'
+[5.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/ex_solution/package.zsh'
+[5.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/ex_solution/share/colcon-core/packages/ex_solution)
+[5.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_dist' returned '0': PYTHONPATH=/home/mrush/exercise/src/ros-exercises/build/navigation2_dist/prefix_override:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_dist build --build-base /home/mrush/exercise/src/ros-exercises/build/navigation2_dist/build install --record /home/mrush/exercise/src/ros-exercises/build/navigation2_dist/install.log --single-version-externally-managed
+[5.786s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist' for CMake module files
+[5.787s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist' for CMake config files
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib'
+[5.789s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/bin'
+[5.789s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/pkgconfig/navigation2_dist.pc'
+[5.789s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages'
+[5.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation2_dist', 'pythonpath')
+[5.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/pythonpath.ps1'
+[5.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/pythonpath.dsv'
+[5.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/pythonpath.sh'
+[5.831s] Level 1:colcon.colcon_core.environment:checking '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/bin'
+[5.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation2_dist)
+[5.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.ps1'
+[5.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.dsv'
+[5.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.sh'
+[5.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.bash'
+[5.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.zsh'
+[5.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/share/colcon-core/packages/navigation2_dist)
+[5.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.875s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.878s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.060s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.060s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.060s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.060s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[6.060s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mrush/exercise/src/ros-exercises/install/local_setup.ps1'
+[6.089s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mrush/exercise/src/ros-exercises/install/_local_setup_util_ps1.py'
+[6.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mrush/exercise/src/ros-exercises/install/setup.ps1'
+[6.117s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mrush/exercise/src/ros-exercises/install/local_setup.sh'
+[6.132s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mrush/exercise/src/ros-exercises/install/_local_setup_util_sh.py'
+[6.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mrush/exercise/src/ros-exercises/install/setup.sh'
+[6.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mrush/exercise/src/ros-exercises/install/local_setup.bash'
+[6.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mrush/exercise/src/ros-exercises/install/setup.bash'
+[6.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mrush/exercise/src/ros-exercises/install/local_setup.zsh'
+[6.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mrush/exercise/src/ros-exercises/install/setup.zsh'

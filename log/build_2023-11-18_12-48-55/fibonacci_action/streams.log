@@ -1,0 +1,235 @@
+[0.356s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble /usr/bin/cmake /home/mrush/exercise/src/ros-exercises/fibonacci_action -DCMAKE_INSTALL_PREFIX=/home/mrush/exercise/src/ros-exercises/install/fibonacci_action
+[1.076s] -- The C compiler identification is GNU 11.4.0
+[2.074s] -- The CXX compiler identification is GNU 11.4.0
+[3.440s] -- Detecting C compiler ABI info
+[3.886s] -- Detecting C compiler ABI info - done
+[3.900s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.900s] -- Detecting C compile features
+[3.901s] -- Detecting C compile features - done
+[3.907s] -- Detecting CXX compiler ABI info
+[4.458s] -- Detecting CXX compiler ABI info - done
+[4.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.473s] -- Detecting CXX compile features
+[4.473s] -- Detecting CXX compile features - done
+[4.479s] -- Found ament_cmake_python: 1.3.5 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[4.482s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[4.484s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.486s] -- Found ament_cmake_core: 1.3.5 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[4.826s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.030s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.377s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.536s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.538s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.698s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.698s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.698s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.698s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.816s] -- Found PythonExtra: .so  
+[9.100s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.148s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.153s] -- Added test 'lint_cmake' to check CMake code style
+[9.155s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.161s] -- Added test 'xmllint' to check XML markup files
+[9.166s] -- Configuring done
+[9.279s] -- Generating done
+[9.286s] -- Build files have been written to: /home/mrush/exercise/src/ros-exercises/build/fibonacci_action
+[9.324s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble /usr/bin/cmake /home/mrush/exercise/src/ros-exercises/fibonacci_action -DCMAKE_INSTALL_PREFIX=/home/mrush/exercise/src/ros-exercises/install/fibonacci_action
+[9.325s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/fibonacci_action -- -j8 -l8
+[9.416s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.461s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.471s] [  6%] Built target ament_cmake_python_copy_fibonacci_action
+[10.253s] running egg_info
+[10.255s] creating fibonacci_action.egg-info
+[10.263s] writing fibonacci_action.egg-info/PKG-INFO
+[10.263s] writing dependency_links to fibonacci_action.egg-info/dependency_links.txt
+[10.263s] writing top-level names to fibonacci_action.egg-info/top_level.txt
+[10.263s] writing manifest file 'fibonacci_action.egg-info/SOURCES.txt'
+[10.266s] reading manifest file 'fibonacci_action.egg-info/SOURCES.txt'
+[10.267s] writing manifest file 'fibonacci_action.egg-info/SOURCES.txt'
+[10.352s] [  6%] Built target ament_cmake_python_build_fibonacci_action_egg
+[10.727s] [  9%] [32mBuilding C object CMakeFiles/fibonacci_action__rosidl_generator_c.dir/rosidl_generator_c/fibonacci_action/action/detail/fibonacci__functions.c.o[0m
+[10.943s] [  9%] Built target fibonacci_action__cpp
+[10.977s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.012s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.020s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.194s] [ 22%] [32m[1mLinking C shared library libfibonacci_action__rosidl_generator_c.so[0m
+[12.205s] [ 22%] Built target fibonacci_action__rosidl_generator_c
+[12.216s] [ 25%] [32mBuilding CXX object CMakeFiles/fibonacci_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fibonacci_action/action/fibonacci__type_support.cpp.o[0m
+[12.332s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.334s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.356s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.085s] [ 38%] [32mBuilding CXX object CMakeFiles/fibonacci_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fibonacci_action/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[13.150s] [ 41%] [32mBuilding CXX object CMakeFiles/fibonacci_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fibonacci_action/action/detail/fibonacci__type_support.cpp.o[0m
+[14.144s] [ 45%] [32mBuilding CXX object CMakeFiles/fibonacci_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/fibonacci_action/action/fibonacci__type_support.cpp.o[0m
+[14.370s] [ 48%] [32m[1mLinking CXX shared library libfibonacci_action__rosidl_typesupport_c.so[0m
+[14.854s] [ 51%] [32mBuilding CXX object CMakeFiles/fibonacci_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fibonacci_action/action/detail/fibonacci__type_support_c.cpp.o[0m
+[15.074s] [ 54%] [32mBuilding C object CMakeFiles/fibonacci_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fibonacci_action/action/detail/fibonacci__type_support.c.o[0m
+[15.350s] [ 54%] Built target fibonacci_action__rosidl_typesupport_c
+[15.374s] [ 58%] [32m[1mLinking CXX shared library libfibonacci_action__rosidl_typesupport_cpp.so[0m
+[15.524s] [ 61%] [32m[1mLinking C shared library libfibonacci_action__rosidl_typesupport_introspection_c.so[0m
+[16.270s] [ 61%] Built target fibonacci_action__rosidl_typesupport_cpp
+[16.385s] [ 64%] [32m[1mLinking CXX shared library libfibonacci_action__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.468s] [ 64%] Built target fibonacci_action__rosidl_typesupport_introspection_c
+[16.611s] [ 67%] [32m[1mLinking CXX shared library libfibonacci_action__rosidl_typesupport_fastrtps_c.so[0m
+[16.890s] [ 70%] [32m[1mLinking CXX shared library libfibonacci_action__rosidl_typesupport_introspection_cpp.so[0m
+[17.228s] [ 70%] Built target fibonacci_action__rosidl_typesupport_fastrtps_cpp
+[17.408s] [ 70%] Built target fibonacci_action__rosidl_typesupport_fastrtps_c
+[17.572s] [ 70%] Built target fibonacci_action__rosidl_typesupport_introspection_cpp
+[17.633s] [ 70%] Built target fibonacci_action
+[17.680s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.469s] [ 74%] Built target fibonacci_action__py
+[19.522s] [ 77%] [32mBuilding C object CMakeFiles/fibonacci_action__rosidl_generator_py.dir/rosidl_generator_py/fibonacci_action/action/_fibonacci_s.c.o[0m
+[19.928s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fibonacci_action/libfibonacci_action__rosidl_generator_py.so[0m
+[20.549s] [ 80%] Built target fibonacci_action__rosidl_generator_py
+[20.612s] [ 83%] [32mBuilding C object CMakeFiles/fibonacci_action__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fibonacci_action/_fibonacci_action_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.614s] [ 87%] [32mBuilding C object CMakeFiles/fibonacci_action__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fibonacci_action/_fibonacci_action_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.618s] [ 90%] [32mBuilding C object CMakeFiles/fibonacci_action__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fibonacci_action/_fibonacci_action_s.ep.rosidl_typesupport_c.c.o[0m
+[20.920s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/fibonacci_action/fibonacci_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.926s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/fibonacci_action/fibonacci_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.945s] [100%] [32m[1mLinking C shared library rosidl_generator_py/fibonacci_action/fibonacci_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.349s] [100%] Built target fibonacci_action__rosidl_typesupport_c__pyext
+[21.352s] [100%] Built target fibonacci_action__rosidl_typesupport_fastrtps_c__pyext
+[21.530s] [100%] Built target fibonacci_action__rosidl_typesupport_introspection_c__pyext
+[21.673s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble /usr/bin/cmake --build /home/mrush/exercise/src/ros-exercises/build/fibonacci_action -- -j8 -l8
+[22.062s] Invoking command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/fibonacci_action
+[22.078s] -- Install configuration: ""
+[22.078s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/ament_index/resource_index/rosidl_interfaces/fibonacci_action
+[22.078s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action
+[22.078s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/msg
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/msg/rosidl_generator_c__visibility_control.h
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/fibonacci.h
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__functions.c
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__struct.h
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__type_support.h
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__functions.h
+[22.079s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/environment/library_path.sh
+[22.080s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/environment/library_path.dsv
+[22.080s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_generator_c.so
+[22.080s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_generator_c.so" to ""
+[22.080s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action
+[22.080s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/msg
+[22.080s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.080s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action
+[22.080s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail
+[22.080s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[22.081s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_fastrtps_c.so
+[22.081s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_fastrtps_c.so" to ""
+[22.081s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action
+[22.081s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/msg
+[22.081s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.081s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action
+[22.081s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail
+[22.081s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[22.081s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__type_support.c
+[22.081s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_introspection_c.so
+[22.081s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_introspection_c.so" to ""
+[22.082s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_c.so
+[22.082s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_c.so" to ""
+[22.082s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action
+[22.082s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action
+[22.082s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/fibonacci.hpp
+[22.082s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail
+[22.083s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__builder.hpp
+[22.083s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__traits.hpp
+[22.083s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__struct.hpp
+[22.084s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action
+[22.084s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/msg
+[22.084s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.084s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action
+[22.084s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail
+[22.084s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/dds_fastrtps
+[22.084s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[22.084s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_fastrtps_cpp.so
+[22.084s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.084s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action
+[22.084s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action
+[22.085s] -- Up-to-date: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail
+[22.085s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__type_support.cpp
+[22.085s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/include/fibonacci_action/fibonacci_action/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[22.085s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_introspection_cpp.so
+[22.085s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_introspection_cpp.so" to ""
+[22.085s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_cpp.so
+[22.085s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_typesupport_cpp.so" to ""
+[22.086s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/environment/pythonpath.sh
+[22.086s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/environment/pythonpath.dsv
+[22.086s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action-0.0.0-py3.10.egg-info
+[22.095s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action-0.0.0-py3.10.egg-info/top_level.txt
+[22.096s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action-0.0.0-py3.10.egg-info/PKG-INFO
+[22.096s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action-0.0.0-py3.10.egg-info/SOURCES.txt
+[22.096s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action-0.0.0-py3.10.egg-info/dependency_links.txt
+[22.096s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action
+[22.097s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.098s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/_fibonacci_action_s.ep.rosidl_typesupport_c.c
+[22.098s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/_fibonacci_action_s.ep.rosidl_typesupport_introspection_c.c
+[22.098s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.098s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.098s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/action
+[22.099s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/action/_fibonacci.py
+[22.099s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/action/__init__.py
+[22.099s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/action/_fibonacci_s.c
+[22.099s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/__init__.py
+[22.099s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/_fibonacci_action_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.099s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/libfibonacci_action__rosidl_generator_py.so
+[22.214s] Listing '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action'...
+[22.214s] Compiling '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/__init__.py'...
+[22.214s] Listing '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/action'...
+[22.214s] Compiling '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/action/__init__.py'...
+[22.214s] Compiling '/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/action/_fibonacci.py'...
+[22.232s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.232s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.233s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.233s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.233s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.233s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/local/lib/python3.10/dist-packages/fibonacci_action/fibonacci_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.233s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_generator_py.so
+[22.234s] -- Set runtime path of "/home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/libfibonacci_action__rosidl_generator_py.so" to ""
+[22.234s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/action/Fibonacci.idl
+[22.234s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/action/Fibonacci.action
+[22.234s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/fibonacci_action/fibonacci_action_server.py
+[22.236s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/lib/fibonacci_action/fibonacci_action_client.py
+[22.237s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/ament_index/resource_index/package_run_dependencies/fibonacci_action
+[22.237s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/ament_index/resource_index/parent_prefix_path/fibonacci_action
+[22.239s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/environment/ament_prefix_path.sh
+[22.241s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/environment/ament_prefix_path.dsv
+[22.241s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/environment/path.sh
+[22.241s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/environment/path.dsv
+[22.241s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/local_setup.bash
+[22.241s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/local_setup.sh
+[22.242s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/local_setup.zsh
+[22.242s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/local_setup.dsv
+[22.242s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.dsv
+[22.242s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/ament_index/resource_index/packages/fibonacci_action
+[22.242s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_generator_cExport.cmake
+[22.242s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_generator_cExport-noconfig.cmake
+[22.243s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_typesupport_fastrtps_cExport.cmake
+[22.245s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.245s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_action__rosidl_typesupport_introspection_cExport.cmake
+[22.245s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_action__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.246s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_action__rosidl_typesupport_cExport.cmake
+[22.246s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_action__rosidl_typesupport_cExport-noconfig.cmake
+[22.246s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_generator_cppExport.cmake
+[22.246s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.246s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.246s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_action__rosidl_typesupport_introspection_cppExport.cmake
+[22.247s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_action__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.247s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_action__rosidl_typesupport_cppExport.cmake
+[22.247s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_action__rosidl_typesupport_cppExport-noconfig.cmake
+[22.247s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_generator_pyExport.cmake
+[22.247s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/export_fibonacci_action__rosidl_generator_pyExport-noconfig.cmake
+[22.247s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/rosidl_cmake-extras.cmake
+[22.248s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.251s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.252s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/ament_cmake_export_libraries-extras.cmake
+[22.253s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/ament_cmake_export_targets-extras.cmake
+[22.253s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.253s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.253s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_actionConfig.cmake
+[22.253s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/cmake/fibonacci_actionConfig-version.cmake
+[22.253s] -- Installing: /home/mrush/exercise/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.xml
+[22.258s] Invoked command in '/home/mrush/exercise/src/ros-exercises/build/fibonacci_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist:/opt/ros/humble /usr/bin/cmake --install /home/mrush/exercise/src/ros-exercises/build/fibonacci_action
