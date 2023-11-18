@@ -1,0 +1,23 @@
+[3.190s] Invoking command in '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_dist': PYTHONPATH=/home/mrush/exercise/src/ros-exercises/build/navigation2_dist/prefix_override:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_dist build --build-base /home/mrush/exercise/src/ros-exercises/build/navigation2_dist/build install --record /home/mrush/exercise/src/ros-exercises/build/navigation2_dist/install.log --single-version-externally-managed
+[3.787s] running egg_info
+[3.791s] writing ../../build/navigation2_dist/navigation2_dist.egg-info/PKG-INFO
+[3.792s] writing dependency_links to ../../build/navigation2_dist/navigation2_dist.egg-info/dependency_links.txt
+[3.792s] writing entry points to ../../build/navigation2_dist/navigation2_dist.egg-info/entry_points.txt
+[3.792s] writing requirements to ../../build/navigation2_dist/navigation2_dist.egg-info/requires.txt
+[3.792s] writing top-level names to ../../build/navigation2_dist/navigation2_dist.egg-info/top_level.txt
+[3.805s] reading manifest file '../../build/navigation2_dist/navigation2_dist.egg-info/SOURCES.txt'
+[3.811s] writing manifest file '../../build/navigation2_dist/navigation2_dist.egg-info/SOURCES.txt'
+[3.812s] running build
+[3.812s] running build_py
+[3.812s] running install
+[3.812s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.812s]   warnings.warn(
+[3.814s] running install_lib
+[3.818s] running install_data
+[3.820s] running install_egg_info
+[3.823s] removing '/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages/navigation2_dist-0.0.0-py3.10.egg-info' (and everything under it)
+[3.823s] Copying ../../build/navigation2_dist/navigation2_dist.egg-info to /home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages/navigation2_dist-0.0.0-py3.10.egg-info
+[3.825s] running install_scripts
+[3.883s] Installing path_len script to /home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/navigation2_dist
+[3.886s] writing list of installed files to '/home/mrush/exercise/src/ros-exercises/build/navigation2_dist/install.log'
+[3.969s] Invoked command in '/home/mrush/exercise/src/ros-exercises/navigation2_planners/navigation2_dist' returned '0': PYTHONPATH=/home/mrush/exercise/src/ros-exercises/build/navigation2_dist/prefix_override:/home/mrush/exercise/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_dist build --build-base /home/mrush/exercise/src/ros-exercises/build/navigation2_dist/build install --record /home/mrush/exercise/src/ros-exercises/build/navigation2_dist/install.log --single-version-externally-managed
