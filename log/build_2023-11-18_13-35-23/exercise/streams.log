@@ -1,0 +1,26 @@
+[1.143s] Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise -- -j8 -l8
+[2.233s] Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise -- -j8 -l8
+[2.380s] Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise
+[2.398s] -- Install configuration: ""
+[2.398s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//launch
+[2.398s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//launch/exercise_world.launch.py
+[2.398s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//worlds
+[2.398s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//worlds/exercise.sdf
+[2.398s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//config
+[2.398s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//config/exercise.config
+[2.399s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/ament_index/resource_index/package_run_dependencies/exercise
+[2.399s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/ament_index/resource_index/parent_prefix_path/exercise
+[2.399s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/environment/ament_prefix_path.sh
+[2.403s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/environment/ament_prefix_path.dsv
+[2.405s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/environment/path.sh
+[2.406s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/environment/path.dsv
+[2.409s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/local_setup.bash
+[2.416s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/local_setup.sh
+[2.416s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/local_setup.zsh
+[2.416s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/local_setup.dsv
+[2.416s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.dsv
+[2.416s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/ament_index/resource_index/packages/exercise
+[2.417s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/cmake/exerciseConfig.cmake
+[2.417s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/cmake/exerciseConfig-version.cmake
+[2.417s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.xml
+[2.418s] Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise

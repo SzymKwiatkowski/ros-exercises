@@ -1,0 +1,148 @@
+[0.875s] Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution -- -j8 -l8
+[1.658s] [  3%] Built target ex_solution__cpp
+[1.659s] [  3%] Built target ament_cmake_python_copy_ex_solution
+[1.660s] [ 12%] Built target ex_solution__rosidl_generator_c
+[1.660s] [ 22%] Built target ex_solution__rosidl_typesupport_fastrtps_cpp
+[1.661s] [ 32%] Built target ex_solution__rosidl_typesupport_introspection_cpp
+[1.662s] [ 41%] Built target ex_solution__rosidl_typesupport_cpp
+[1.663s] [ 51%] Built target ex_solution__rosidl_typesupport_c
+[1.664s] [ 61%] Built target ex_solution__rosidl_typesupport_fastrtps_c
+[1.664s] [ 70%] Built target ex_solution__rosidl_typesupport_introspection_c
+[1.706s] running egg_info
+[1.729s] writing ex_solution.egg-info/PKG-INFO
+[1.730s] writing dependency_links to ex_solution.egg-info/dependency_links.txt
+[1.730s] writing top-level names to ex_solution.egg-info/top_level.txt
+[1.917s] reading manifest file 'ex_solution.egg-info/SOURCES.txt'
+[1.924s] writing manifest file 'ex_solution.egg-info/SOURCES.txt'
+[2.107s] [ 70%] Built target ament_cmake_python_build_ex_solution_egg
+[2.191s] [ 70%] Built target ex_solution
+[2.274s] [ 74%] Built target ex_solution__py
+[2.360s] [ 80%] Built target ex_solution__rosidl_generator_py
+[2.438s] [ 87%] Built target ex_solution__rosidl_typesupport_fastrtps_c__pyext
+[2.513s] [ 93%] Built target ex_solution__rosidl_typesupport_c__pyext
+[2.552s] [100%] Built target ex_solution__rosidl_typesupport_introspection_c__pyext
+[2.844s] Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution -- -j8 -l8
+[3.037s] Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution
+[3.051s] -- Install configuration: ""
+[3.051s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ament_index/resource_index/rosidl_interfaces/ex_solution
+[3.051s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.052s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.052s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.052s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__functions.c
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__functions.h
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__struct.h
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__type_support.h
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/exercise_action.h
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg/rosidl_generator_c__visibility_control.h
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/environment/library_path.sh
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/environment/library_path.dsv
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_generator_c.so
+[3.053s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.054s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.054s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.054s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__rosidl_typesupport_fastrtps_c.h
+[3.054s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg
+[3.054s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.055s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_fastrtps_c.so
+[3.059s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__struct.hpp
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__traits.hpp
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__builder.hpp
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/exercise_action.hpp
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/dds_fastrtps
+[3.060s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__rosidl_typesupport_fastrtps_cpp.hpp
+[3.061s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg
+[3.061s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.061s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_fastrtps_cpp.so
+[3.061s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.061s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.061s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.061s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__rosidl_typesupport_introspection_c.h
+[3.062s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__type_support.c
+[3.062s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg
+[3.062s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.062s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_introspection_c.so
+[3.063s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_c.so
+[3.063s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution
+[3.063s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action
+[3.063s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail
+[3.063s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__type_support.cpp
+[3.063s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/include/ex_solution/ex_solution/action/detail/exercise_action__rosidl_typesupport_introspection_cpp.hpp
+[3.064s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_introspection_cpp.so
+[3.064s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_typesupport_cpp.so
+[3.064s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/environment/pythonpath.sh
+[3.064s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/environment/pythonpath.dsv
+[3.064s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info
+[3.064s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.065s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info/PKG-INFO
+[3.065s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.065s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution-0.0.0-py3.10.egg-info/top_level.txt
+[3.065s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution
+[3.065s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/libex_solution__rosidl_generator_py.so
+[3.065s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action
+[3.065s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action/__init__.py
+[3.065s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action/_exercise_action.py
+[3.066s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action/_exercise_action_s.c
+[3.066s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/_ex_solution_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.066s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.066s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.066s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/_ex_solution_s.ep.rosidl_typesupport_introspection_c.c
+[3.066s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/__init__.py
+[3.066s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.067s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/_ex_solution_s.ep.rosidl_typesupport_c.c
+[3.144s] Listing '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution'...
+[3.144s] Listing '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/action'...
+[3.159s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.159s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.160s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/local/lib/python3.10/dist-packages/ex_solution/ex_solution_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.160s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/libex_solution__rosidl_generator_py.so
+[3.160s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/action/ExerciseAction.idl
+[3.160s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/action/ExerciseAction.action
+[3.160s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/ex_solution/exercise_action_client.py
+[3.162s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/ex_solution/exercise_action_server.py
+[3.162s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ament_index/resource_index/package_run_dependencies/ex_solution
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ament_index/resource_index/parent_prefix_path/ex_solution
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/environment/ament_prefix_path.sh
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/environment/ament_prefix_path.dsv
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/environment/path.sh
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/environment/path.dsv
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/local_setup.bash
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/local_setup.sh
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/local_setup.zsh
+[3.163s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/local_setup.dsv
+[3.163s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.dsv
+[3.164s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ament_index/resource_index/packages/ex_solution
+[3.168s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_cExport.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_cExport-noconfig.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_typesupport_fastrtps_cExport.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_cppExport.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_introspection_cExport.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.169s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_cExport.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_cExport-noconfig.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_introspection_cppExport.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_cppExport.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solution__rosidl_typesupport_cppExport-noconfig.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_pyExport.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/export_ex_solution__rosidl_generator_pyExport-noconfig.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/rosidl_cmake-extras.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.170s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ament_cmake_export_libraries-extras.cmake
+[3.171s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ament_cmake_export_targets-extras.cmake
+[3.171s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.171s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.171s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solutionConfig.cmake
+[3.171s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/cmake/ex_solutionConfig-version.cmake
+[3.171s] -- Up-to-date: /home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.xml
+[3.184s] Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution

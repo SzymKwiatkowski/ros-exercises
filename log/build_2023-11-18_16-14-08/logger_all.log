@@ -1,0 +1,461 @@
+[2.375s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.375s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e0b887ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8e0bd44520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8e0bd44520>>)
+[2.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.487s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/r3k7/Nauka_ros/src/ros-exercises'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extensions ['ignore', 'ignore_ament_install']
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'ignore'
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'ignore_ament_install'
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extensions ['colcon_pkg']
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'colcon_pkg'
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extensions ['colcon_meta']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'colcon_meta'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extensions ['ros']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(ex_solution) by extension 'ros'
+[2.530s] DEBUG:colcon.colcon_core.package_identification:Package 'ex_solution' with type 'ros.ament_cmake' and name 'ex_solution'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extensions ['ignore', 'ignore_ament_install']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'ignore'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'ignore_ament_install'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extensions ['colcon_pkg']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'colcon_pkg'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extensions ['colcon_meta']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'colcon_meta'
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extensions ['ros']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(exercise) by extension 'ros'
+[2.533s] DEBUG:colcon.colcon_core.package_identification:Package 'exercise' with type 'ros.ament_cmake' and name 'exercise'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extensions ['ignore', 'ignore_ament_install']
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'ignore'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'ignore_ament_install'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extensions ['colcon_pkg']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'colcon_pkg'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extensions ['colcon_meta']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'colcon_meta'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extensions ['ros']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(fibonacci_action) by extension 'ros'
+[2.536s] DEBUG:colcon.colcon_core.package_identification:Package 'fibonacci_action' with type 'ros.ament_cmake' and name 'fibonacci_action'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['ignore', 'ignore_ament_install']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'ignore'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'ignore_ament_install'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['colcon_pkg']
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'colcon_pkg'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['colcon_meta']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'colcon_meta'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['ros']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'ros'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['cmake', 'python']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'cmake'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'python'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extensions ['python_setup_py']
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners) by extension 'python_setup_py'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extensions ['ignore', 'ignore_ament_install']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'ignore'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'ignore_ament_install'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extensions ['colcon_pkg']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'colcon_pkg'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extensions ['colcon_meta']
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'colcon_meta'
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extensions ['ros']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_dist) by extension 'ros'
+[2.542s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_planners/navigation2_dist' with type 'ros.ament_python' and name 'navigation2_dist'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extensions ['ignore', 'ignore_ament_install']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'ignore'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'ignore_ament_install'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extensions ['colcon_pkg']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'colcon_pkg'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extensions ['colcon_meta']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'colcon_meta'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extensions ['ros']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_planners/navigation2_turtlebot) by extension 'ros'
+[2.544s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_planners/navigation2_turtlebot' with type 'ros.ament_cmake' and name 'navigation2_turtle'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'ignore'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'ignore_ament_install'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extensions ['colcon_pkg']
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'colcon_pkg'
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extensions ['colcon_meta']
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'colcon_meta'
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extensions ['ros']
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(pub_sub) by extension 'ros'
+[2.545s] DEBUG:colcon.colcon_core.package_identification:Package 'pub_sub' with type 'ros.ament_cmake' and name 'pub_sub'
+[2.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.879s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/r3k7/Nauka_ros/src/ros-exercises/install
+[2.913s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[2.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_args' from command line to 'None'
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_target' from command line to 'None'
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_clean_cache' from command line to 'False'
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_clean_first' from command line to 'False'
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'cmake_force_configure' from command line to 'False'
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'ament_cmake_args' from command line to 'None'
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'catkin_cmake_args' from command line to 'None'
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'ex_solution' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.150s] DEBUG:colcon.colcon_core.verb:Building package 'ex_solution' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution', 'merge_install': False, 'path': '/home/r3k7/Nauka_ros/src/ros-exercises/ex_solution', 'symlink_install': False, 'test_result_base': None}
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_args' from command line to 'None'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_target' from command line to 'None'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_clean_cache' from command line to 'False'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_clean_first' from command line to 'False'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'cmake_force_configure' from command line to 'False'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'ament_cmake_args' from command line to 'None'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'catkin_cmake_args' from command line to 'None'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'exercise' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.182s] DEBUG:colcon.colcon_core.verb:Building package 'exercise' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise', 'merge_install': False, 'path': '/home/r3k7/Nauka_ros/src/ros-exercises/exercise', 'symlink_install': False, 'test_result_base': None}
+[3.240s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_args' from command line to 'None'
+[3.240s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_target' from command line to 'None'
+[3.240s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.240s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_clean_cache' from command line to 'False'
+[3.241s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_clean_first' from command line to 'False'
+[3.241s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'cmake_force_configure' from command line to 'False'
+[3.241s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'ament_cmake_args' from command line to 'None'
+[3.241s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'catkin_cmake_args' from command line to 'None'
+[3.241s] Level 5:colcon.colcon_core.verb:set package 'fibonacci_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.242s] DEBUG:colcon.colcon_core.verb:Building package 'fibonacci_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action', 'merge_install': False, 'path': '/home/r3k7/Nauka_ros/src/ros-exercises/fibonacci_action', 'symlink_install': False, 'test_result_base': None}
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_args' from command line to 'None'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_target' from command line to 'None'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_clean_cache' from command line to 'False'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_clean_first' from command line to 'False'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'cmake_force_configure' from command line to 'False'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'ament_cmake_args' from command line to 'None'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'catkin_cmake_args' from command line to 'None'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'navigation2_dist' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.267s] DEBUG:colcon.colcon_core.verb:Building package 'navigation2_dist' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist', 'merge_install': False, 'path': '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_dist', 'symlink_install': False, 'test_result_base': None}
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_args' from command line to 'None'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_target' from command line to 'None'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'navigation2_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.295s] DEBUG:colcon.colcon_core.verb:Building package 'navigation2_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle', 'merge_install': False, 'path': '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_turtlebot', 'symlink_install': False, 'test_result_base': None}
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_args' from command line to 'None'
+[3.320s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_target' from command line to 'None'
+[3.320s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.320s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.320s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_clean_first' from command line to 'False'
+[3.320s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'cmake_force_configure' from command line to 'False'
+[3.320s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'ament_cmake_args' from command line to 'None'
+[3.324s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.324s] Level 5:colcon.colcon_core.verb:set package 'pub_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.324s] DEBUG:colcon.colcon_core.verb:Building package 'pub_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub', 'merge_install': False, 'path': '/home/r3k7/Nauka_ros/src/ros-exercises/pub_sub', 'symlink_install': False, 'test_result_base': None}
+[3.353s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r3k7/Nauka_ros/src/ros-exercises/ex_solution' with build type 'ament_cmake'
+[3.387s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r3k7/Nauka_ros/src/ros-exercises/ex_solution'
+[3.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r3k7/Nauka_ros/src/ros-exercises/exercise' with build type 'ament_cmake'
+[3.540s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r3k7/Nauka_ros/src/ros-exercises/exercise'
+[3.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.713s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r3k7/Nauka_ros/src/ros-exercises/fibonacci_action' with build type 'ament_cmake'
+[3.714s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r3k7/Nauka_ros/src/ros-exercises/fibonacci_action'
+[3.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.923s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_dist' with build type 'ament_python'
+[3.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation2_dist', 'ament_prefix_path')
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/ament_prefix_path.ps1'
+[3.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/ament_prefix_path.dsv'
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/ament_prefix_path.sh'
+[4.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.104s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_turtlebot' with build type 'ament_cmake'
+[4.105s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_turtlebot'
+[4.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/r3k7/Nauka_ros/src/ros-exercises/pub_sub' with build type 'ament_cmake'
+[4.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/r3k7/Nauka_ros/src/ros-exercises/pub_sub'
+[4.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution -- -j8 -l8
+[4.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise -- -j8 -l8
+[4.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action -- -j8 -l8
+[5.101s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_dist'
+[5.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle -- -j8 -l8
+[5.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub -- -j8 -l8
+[5.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise -- -j8 -l8
+[5.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle -- -j8 -l8
+[5.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise
+[5.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle
+[5.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action -- -j8 -l8
+[5.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exercise)
+[5.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise' for CMake module files
+[5.660s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise' for CMake config files
+[5.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('exercise', 'cmake_prefix_path')
+[5.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.ps1'
+[5.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.dsv'
+[5.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.sh'
+[5.716s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/bin'
+[5.716s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/lib/pkgconfig/exercise.pc'
+[5.717s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/lib/python3.10/site-packages'
+[5.718s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/bin'
+[5.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.ps1'
+[5.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.dsv'
+[5.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.sh'
+[5.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.bash'
+[5.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.zsh'
+[5.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/colcon-core/packages/exercise)
+[5.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation2_turtle)
+[5.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_turtle
+[5.872s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle' for CMake module files
+[5.883s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle' for CMake config files
+[5.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation2_turtle', 'cmake_prefix_path')
+[5.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.ps1'
+[5.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.dsv'
+[5.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.sh'
+[5.923s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/bin'
+[5.923s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/lib/pkgconfig/navigation2_turtle.pc'
+[5.924s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/lib/python3.10/site-packages'
+[5.925s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/bin'
+[5.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.ps1'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.dsv'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.sh'
+[5.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.bash'
+[5.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.zsh'
+[5.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/colcon-core/packages/navigation2_turtle)
+[6.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub -- -j8 -l8
+[6.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action
+[6.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution -- -j8 -l8
+[6.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exercise)
+[6.099s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise' for CMake module files
+[6.101s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise' for CMake config files
+[6.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('exercise', 'cmake_prefix_path')
+[6.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.ps1'
+[6.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.dsv'
+[6.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/hook/cmake_prefix_path.sh'
+[6.177s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/bin'
+[6.177s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/lib/pkgconfig/exercise.pc'
+[6.178s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/lib/python3.10/site-packages'
+[6.178s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/bin'
+[6.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.ps1'
+[6.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.dsv'
+[6.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.sh'
+[6.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.bash'
+[6.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.zsh'
+[6.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/colcon-core/packages/exercise)
+[6.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub
+[6.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation2_turtle)
+[6.315s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle' for CMake module files
+[6.316s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle' for CMake config files
+[6.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation2_turtle', 'cmake_prefix_path')
+[6.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.ps1'
+[6.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.dsv'
+[6.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/hook/cmake_prefix_path.sh'
+[6.365s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/bin'
+[6.366s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/lib/pkgconfig/navigation2_turtle.pc'
+[6.366s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/lib/python3.10/site-packages'
+[6.367s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/bin'
+[6.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.ps1'
+[6.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.dsv'
+[6.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.sh'
+[6.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.bash'
+[6.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/navigation2_turtle/package.zsh'
+[6.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_turtle/share/colcon-core/packages/navigation2_turtle)
+[6.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution
+[6.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fibonacci_action)
+[6.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/fibonacci_action
+[6.468s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action' for CMake module files
+[6.469s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action' for CMake config files
+[6.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci_action', 'cmake_prefix_path')
+[6.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.ps1'
+[6.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.dsv'
+[6.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.sh'
+[6.503s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/lib'
+[6.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci_action', 'ld_library_path_lib')
+[6.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.ps1'
+[6.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.dsv'
+[6.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.sh'
+[6.551s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/bin'
+[6.551s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/lib/pkgconfig/fibonacci_action.pc'
+[6.551s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/lib/python3.10/site-packages'
+[6.552s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/bin'
+[6.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.ps1'
+[6.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.dsv'
+[6.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.sh'
+[6.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.bash'
+[6.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.zsh'
+[6.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/colcon-core/packages/fibonacci_action)
+[6.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub_sub)
+[6.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/pub_sub
+[6.631s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub' for CMake module files
+[6.632s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub' for CMake config files
+[6.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub_sub', 'cmake_prefix_path')
+[6.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.ps1'
+[6.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.dsv'
+[6.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.sh'
+[6.672s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/lib'
+[6.672s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/bin'
+[6.673s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/lib/pkgconfig/pub_sub.pc'
+[6.673s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/lib/python3.10/site-packages'
+[6.673s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/bin'
+[6.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.ps1'
+[6.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.dsv'
+[6.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.sh'
+[6.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.bash'
+[6.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.zsh'
+[6.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/colcon-core/packages/pub_sub)
+[6.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_dist': PYTHONPATH=/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/prefix_override:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_dist build --build-base /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/build install --record /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/install.log --single-version-externally-managed
+[6.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex_solution)
+[6.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/ex_solution
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution' for CMake module files
+[6.805s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution' for CMake config files
+[6.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_solution', 'cmake_prefix_path')
+[6.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.ps1'
+[6.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.dsv'
+[6.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.sh'
+[6.841s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib'
+[6.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_solution', 'ld_library_path_lib')
+[6.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.ps1'
+[6.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.dsv'
+[6.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.sh'
+[6.880s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/bin'
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/pkgconfig/ex_solution.pc'
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/python3.10/site-packages'
+[6.882s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/bin'
+[6.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.ps1'
+[6.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.dsv'
+[6.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.sh'
+[6.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.bash'
+[6.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.zsh'
+[6.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/colcon-core/packages/ex_solution)
+[6.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fibonacci_action)
+[7.015s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action' for CMake module files
+[7.016s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action' for CMake config files
+[7.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci_action', 'cmake_prefix_path')
+[7.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.ps1'
+[7.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.dsv'
+[7.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/cmake_prefix_path.sh'
+[7.047s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/lib'
+[7.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci_action', 'ld_library_path_lib')
+[7.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.ps1'
+[7.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.dsv'
+[7.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/hook/ld_library_path_lib.sh'
+[7.091s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/bin'
+[7.091s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/lib/pkgconfig/fibonacci_action.pc'
+[7.092s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/lib/python3.10/site-packages'
+[7.110s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/bin'
+[7.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.ps1'
+[7.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.dsv'
+[7.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.sh'
+[7.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.bash'
+[7.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/fibonacci_action/package.zsh'
+[7.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/fibonacci_action/share/colcon-core/packages/fibonacci_action)
+[7.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pub_sub)
+[7.221s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub' for CMake module files
+[7.223s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub' for CMake config files
+[7.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('pub_sub', 'cmake_prefix_path')
+[7.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.ps1'
+[7.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.dsv'
+[7.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/hook/cmake_prefix_path.sh'
+[7.253s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/lib'
+[7.273s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/bin'
+[7.273s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/lib/pkgconfig/pub_sub.pc'
+[7.273s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/lib/python3.10/site-packages'
+[7.274s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/bin'
+[7.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.ps1'
+[7.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.dsv'
+[7.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.sh'
+[7.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.bash'
+[7.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/pub_sub/package.zsh'
+[7.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/pub_sub/share/colcon-core/packages/pub_sub)
+[7.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex_solution)
+[7.438s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution' for CMake module files
+[7.439s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution' for CMake config files
+[7.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_solution', 'cmake_prefix_path')
+[7.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.ps1'
+[7.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.dsv'
+[7.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/cmake_prefix_path.sh'
+[7.488s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib'
+[7.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_solution', 'ld_library_path_lib')
+[7.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.ps1'
+[7.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.dsv'
+[7.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/hook/ld_library_path_lib.sh'
+[7.529s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/bin'
+[7.530s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/pkgconfig/ex_solution.pc'
+[7.530s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/lib/python3.10/site-packages'
+[7.531s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/bin'
+[7.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.ps1'
+[7.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.dsv'
+[7.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.sh'
+[7.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.bash'
+[7.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/ex_solution/package.zsh'
+[7.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/ex_solution/share/colcon-core/packages/ex_solution)
+[7.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_dist' returned '0': PYTHONPATH=/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/prefix_override:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_dist build --build-base /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/build install --record /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/install.log --single-version-externally-managed
+[7.861s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist' for CMake module files
+[7.862s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist' for CMake config files
+[7.863s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib'
+[7.863s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/bin'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/pkgconfig/navigation2_dist.pc'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages'
+[7.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation2_dist', 'pythonpath')
+[7.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/pythonpath.ps1'
+[7.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/pythonpath.dsv'
+[7.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/hook/pythonpath.sh'
+[7.911s] Level 1:colcon.colcon_core.environment:checking '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/bin'
+[7.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation2_dist)
+[7.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.ps1'
+[7.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.dsv'
+[7.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.sh'
+[7.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.bash'
+[7.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/navigation2_dist/package.zsh'
+[7.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/share/colcon-core/packages/navigation2_dist)
+[7.944s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.945s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.946s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.947s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[8.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.139s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.139s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[8.139s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.172s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/r3k7/Nauka_ros/src/ros-exercises/install/local_setup.ps1'
+[8.174s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/r3k7/Nauka_ros/src/ros-exercises/install/_local_setup_util_ps1.py'
+[8.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/r3k7/Nauka_ros/src/ros-exercises/install/setup.ps1'
+[8.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/r3k7/Nauka_ros/src/ros-exercises/install/local_setup.sh'
+[8.216s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/r3k7/Nauka_ros/src/ros-exercises/install/_local_setup_util_sh.py'
+[8.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/r3k7/Nauka_ros/src/ros-exercises/install/setup.sh'
+[8.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/r3k7/Nauka_ros/src/ros-exercises/install/local_setup.bash'
+[8.249s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/r3k7/Nauka_ros/src/ros-exercises/install/setup.bash'
+[8.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/r3k7/Nauka_ros/src/ros-exercises/install/local_setup.zsh'
+[8.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/r3k7/Nauka_ros/src/ros-exercises/install/setup.zsh'

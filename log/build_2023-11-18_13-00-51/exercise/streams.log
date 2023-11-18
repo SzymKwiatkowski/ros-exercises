@@ -1,0 +1,51 @@
+[0.428s] Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake /home/r3k7/Nauka_ros/src/ros-exercises/exercise -DCMAKE_INSTALL_PREFIX=/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise
+[1.389s] -- The C compiler identification is GNU 11.4.0
+[1.988s] -- The CXX compiler identification is GNU 11.4.0
+[3.310s] -- Detecting C compiler ABI info
+[3.831s] -- Detecting C compiler ABI info - done
+[3.844s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.845s] -- Detecting C compile features
+[3.845s] -- Detecting C compile features - done
+[3.849s] -- Detecting CXX compiler ABI info
+[4.558s] -- Detecting CXX compiler ABI info - done
+[4.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.576s] -- Detecting CXX compile features
+[4.576s] -- Detecting CXX compile features - done
+[4.579s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.700s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.992s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[6.000s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.239s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.242s] -- Added test 'lint_cmake' to check CMake code style
+[6.245s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.246s] -- Added test 'xmllint' to check XML markup files
+[6.252s] -- Configuring done
+[6.262s] -- Generating done
+[6.264s] -- Build files have been written to: /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise
+[6.279s] Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake /home/r3k7/Nauka_ros/src/ros-exercises/exercise -DCMAKE_INSTALL_PREFIX=/home/r3k7/Nauka_ros/src/ros-exercises/install/exercise
+[6.281s] Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise -- -j8 -l8
+[6.333s] Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise -- -j8 -l8
+[6.384s] Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise
+[6.394s] -- Install configuration: ""
+[6.394s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//launch
+[6.395s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//launch/exercise_world.launch.py
+[6.395s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//worlds
+[6.395s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//worlds/exercise.sdf
+[6.396s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//config
+[6.396s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise//config/exercise.config
+[6.397s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/ament_index/resource_index/package_run_dependencies/exercise
+[6.397s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/ament_index/resource_index/parent_prefix_path/exercise
+[6.399s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/environment/ament_prefix_path.sh
+[6.399s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/environment/ament_prefix_path.dsv
+[6.399s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/environment/path.sh
+[6.399s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/environment/path.dsv
+[6.399s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/local_setup.bash
+[6.399s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/local_setup.sh
+[6.402s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/local_setup.zsh
+[6.402s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/local_setup.dsv
+[6.403s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.dsv
+[6.403s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/ament_index/resource_index/packages/exercise
+[6.404s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/cmake/exerciseConfig.cmake
+[6.404s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/cmake/exerciseConfig-version.cmake
+[6.404s] -- Installing: /home/r3k7/Nauka_ros/src/ros-exercises/install/exercise/share/exercise/package.xml
+[6.408s] Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/r3k7/Nauka_ros/src/ros-exercises/build/exercise

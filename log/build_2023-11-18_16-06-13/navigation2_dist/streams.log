@@ -1,0 +1,34 @@
+[3.146s] Invoking command in '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_dist': PYTHONPATH=/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/prefix_override:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_dist build --build-base /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/build install --record /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/install.log --single-version-externally-managed
+[3.690s] running egg_info
+[3.741s] writing ../../build/navigation2_dist/navigation2_dist.egg-info/PKG-INFO
+[3.742s] writing dependency_links to ../../build/navigation2_dist/navigation2_dist.egg-info/dependency_links.txt
+[3.743s] writing entry points to ../../build/navigation2_dist/navigation2_dist.egg-info/entry_points.txt
+[3.744s] writing requirements to ../../build/navigation2_dist/navigation2_dist.egg-info/requires.txt
+[3.745s] writing top-level names to ../../build/navigation2_dist/navigation2_dist.egg-info/top_level.txt
+[3.792s] reading manifest file '../../build/navigation2_dist/navigation2_dist.egg-info/SOURCES.txt'
+[3.793s] writing manifest file '../../build/navigation2_dist/navigation2_dist.egg-info/SOURCES.txt'
+[3.793s] running build
+[3.793s] running build_py
+[3.794s] running install
+[3.796s] /home/r3k7/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.797s] !!
+[3.797s] 
+[3.797s]         ********************************************************************************
+[3.797s]         Please avoid running ``setup.py`` directly.
+[3.797s]         Instead, use pypa/build, pypa/installer or other
+[3.797s]         standards-based tools.
+[3.797s] 
+[3.797s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.797s]         ********************************************************************************
+[3.798s] 
+[3.798s] !!
+[3.798s]   self.initialize_options()
+[3.811s] running install_lib
+[3.837s] running install_data
+[3.872s] running install_egg_info
+[3.916s] removing '/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages/navigation2_dist-0.0.0-py3.10.egg-info' (and everything under it)
+[3.918s] Copying ../../build/navigation2_dist/navigation2_dist.egg-info to /home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages/navigation2_dist-0.0.0-py3.10.egg-info
+[3.922s] running install_scripts
+[4.270s] Installing path_len script to /home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/navigation2_dist
+[4.272s] writing list of installed files to '/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/install.log'
+[4.382s] Invoked command in '/home/r3k7/Nauka_ros/src/ros-exercises/navigation2_planners/navigation2_dist' returned '0': PYTHONPATH=/home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/prefix_override:/home/r3k7/Nauka_ros/src/ros-exercises/install/navigation2_dist/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_dist build --build-base /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/build install --record /home/r3k7/Nauka_ros/src/ros-exercises/build/navigation2_dist/install.log --single-version-externally-managed

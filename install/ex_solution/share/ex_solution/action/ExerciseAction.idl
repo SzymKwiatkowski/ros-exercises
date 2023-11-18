@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ex_solution/action/ExerciseAction.action
+// generated code does not contain a copyright notice
+
+
+module ex_solution {
+  module action {
+    struct ExerciseAction_Goal {
+      float goal_distance;
+
+      float timeout;
+
+      float precision;
+    };
+    struct ExerciseAction_Result {
+      boolean succeeded;
+
+      float final_precision;
+
+      float total_time;
+    };
+    struct ExerciseAction_Feedback {
+      float current_distance;
+
+      float estimated_time;
+    };
+  };
+};
