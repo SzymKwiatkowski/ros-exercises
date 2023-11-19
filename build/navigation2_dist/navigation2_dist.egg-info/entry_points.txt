@@ -1,3 +1,0 @@
-[console_scripts]
-path_len = navigation2_dist.path_len:main
-

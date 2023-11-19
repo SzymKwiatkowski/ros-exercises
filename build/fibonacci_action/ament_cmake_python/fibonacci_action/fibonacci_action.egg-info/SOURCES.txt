@@ -1,8 +1,0 @@
-setup.py
-fibonacci_action/__init__.py
-fibonacci_action.egg-info/PKG-INFO
-fibonacci_action.egg-info/SOURCES.txt
-fibonacci_action.egg-info/dependency_links.txt
-fibonacci_action.egg-info/top_level.txt
-fibonacci_action/action/__init__.py
-fibonacci_action/action/_fibonacci.py
