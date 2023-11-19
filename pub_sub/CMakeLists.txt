@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(ex_solution)
+project(pub_sub)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -10,35 +10,20 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
-find_package(action_msgs REQUIRED)
+
+find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-# add_executable(talker src/publisher_member_function.cpp)
-# ament_target_dependencies(talker rclcpp std_msgs)
+add_executable(talker src/publisher_member_function.cpp)
+ament_target_dependencies(talker rclcpp std_msgs)
 
-# add_executable(listener src/subscriber_member_function.cpp)
-# ament_target_dependencies(listener rclcpp std_msgs)
-find_package(rosidl_default_generators REQUIRED)
+add_executable(listener src/subscriber_member_function.cpp)
+ament_target_dependencies(listener rclcpp std_msgs)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/ExerciseAction.action"
-)
-
-# add_executable(server scripts/exercise_action_server.py)
-# ament_target_dependencies(server action_msgs std_msgs)
-
-# add_executable(client scripts/exercise_action_client.py)
-# ament_target_dependencies(client action_msgs std_msgs)
-
-install(PROGRAMS
-  scripts/exercise_action_client.py
-  scripts/exercise_action_server.py
+install(TARGETS
+  talker
+  listener
   DESTINATION lib/${PROJECT_NAME})
-  
-
-set(action_files
-  "action/ExerciseAction.action"
-)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
